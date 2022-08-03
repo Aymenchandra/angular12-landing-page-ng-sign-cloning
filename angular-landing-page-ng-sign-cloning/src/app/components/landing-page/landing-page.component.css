@@ -1,0 +1,153 @@
+/* Photos */
+.background 
+{
+    height: 40rem;
+    width: 37rem;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size:contain;
+}
+.background1
+{
+    background-image: url("../../../assets/photos/photo1.png");
+}
+.background2
+{
+    background-image: url("../../../assets/photos/photo2.png");
+}
+.icon 
+{
+    height: 10rem;
+    width: 8rem;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size:contain;
+    margin:0 auto;
+}
+.icon1
+{
+    background-image: url("../../../assets/photos/icon1.png");
+}
+.icon2
+{
+    background-image: url("../../../assets/photos/icon2.png");
+}
+.icon3
+{
+    background-image: url("../../../assets/photos/icon3.png");
+}
+/* section1 */
+.section1 .title
+{
+    color:#414141;
+    font-weight: 900;
+}
+
+.section1 .pi-chevron-circle-right
+{
+    font-size: 2rem;
+    color: #414141;
+}
+.section1 .text
+{
+    padding: 7px 10px 20px 10px;
+    font-weight: 300;
+    letter-spacing: .5px;
+    font-size: 16px;
+}
+/* section2 */
+hr
+{
+    background-color:#2485ba;
+    margin-top: 10px;
+}
+.title
+{
+    color:#414141;
+    font-weight: 400;
+}
+.section2 .pi-check
+{
+    color:#ffd000;
+    margin-right: 10px;
+}
+/* section7 */
+.widget-client1
+{
+    border:1px solid rgba(128, 128, 128, 0.185);
+    border-top: 2px solid rgb(2, 115, 243);
+}
+.widget-client1:hover
+{
+    border:1px solid rgba(128, 128, 128, 0.185);
+}
+.widget-client2
+{
+    border:1px solid rgba(128, 128, 128, 0.185);
+    border-bottom: 2px solid rgb(208, 255, 0);
+}
+.widget-client2:hover
+{
+    border:1px solid rgba(128, 128, 128, 0.185);
+}
+/* section8 */
+.section8 fieldset
+{
+    border: 1px solid rgba(128, 128, 128, 0.295);
+    border-right: none;
+
+}
+.section8 fieldset legend
+{
+    text-align:center;
+}
+
+/* media */
+@media only screen and (max-width: 1464px) {
+    .background
+    {
+        width: 20rem;
+    }
+  }
+@media only screen and (max-width: 767px) {
+    .background  {
+        height: 40rem;
+        width: 100%;
+    }
+    .background1
+    {
+        margin-left:40px
+    }
+    .pi-chevron-circle-right
+    {
+        margin-left:30%
+    }
+    hr
+    {
+        margin: 0 auto;  
+    }
+    .section8 img 
+    {
+        margin: 0 auto;
+    }
+  }
+  
+
+  @media only screen and (max-width: 584px) {
+    
+    .pi-chevron-circle-right
+    {
+        padding: 0 auto;
+    }
+    .background  {
+        margin-bottom: -15rem;
+    }
+    
+    
+}
+@media only screen and (max-width: 445px) {
+    .background  {
+        margin-bottom: -21rem;
+    }
+
+}
